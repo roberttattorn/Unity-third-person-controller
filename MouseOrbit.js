@@ -97,7 +97,7 @@ function Update () {   //  or lateupdate
       } 
       if(Vector3.Distance(transform.position,target.position)<1)
       transform.position=target.position-Vector3.forward;
-      Debug.Log(Vector3.Distance(transform.position,target.position));
+      
 }
 
      
